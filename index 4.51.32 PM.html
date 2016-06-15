@@ -7,15 +7,21 @@
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title>Dane Carmichael</title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
   </head>
 
-  <body class="<%= page_classes %>">
-    <%= yield %>
+  <body class="index">
+    <div class="welcome">
+  <h2 class="my-header"><span class="underline-header">Dane Carmichael</span></h2>
+  <p class="doc">
+    <a href="https://github.com/DaneCarmichael" class="plain-link">GitHub</a>
+  </p>
+</div>
+
   </body>
 </html>
