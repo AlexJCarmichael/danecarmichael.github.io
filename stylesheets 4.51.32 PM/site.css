@@ -364,6 +364,7 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+<<<<<<< HEAD:stylesheets/site.css
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Hind', sans-serif; }
 
@@ -371,6 +372,23 @@ body {
   font-family: 'Quattrocento Sans', sans-serif; }
 
 .underline-link {
+=======
+/* line 8, site.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 12, site.css.scss */
+p, span, a {
+  font-family: 'Raleway', sans-serif; }
+
+/* line 16, site.css.scss */
+.underline-header {
+  border-bottom: 1px solid blue;
+  font-family: "Raleway"; }
+
+/* line 21, site.css.scss */
+.plain-link {
+>>>>>>> ad639b6146042e2d7b98d9295d546214bffc1044:stylesheets 4.51.32 PM/site.css
   text-decoration: none;
   border-bottom: 1px solid #D1D9E3; }
   .underline-link:hover {
