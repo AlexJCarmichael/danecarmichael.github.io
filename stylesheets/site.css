@@ -377,6 +377,13 @@ body {
     border-bottom: none;
     color: #D1D9E3; }
 
-nav ul {
-  text-decoration: none;
-  list-style: none; }
+nav {
+  background-color: #475B4C;
+  padding: .5em 0; }
+  nav ul {
+    text-decoration: none;
+    list-style: none; }
+    nav ul li {
+      font-size: 1.15em;
+      color: white;
+      margin-top: .35em; }
