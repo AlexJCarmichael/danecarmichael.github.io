@@ -377,6 +377,6 @@ body {
     border-bottom: none;
     color: #D1D9E3; }
 
-.container {
-  width: 90%;
-  margin: 0 auto; }
+nav ul {
+  text-decoration: none;
+  list-style: none; }
